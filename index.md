@@ -47,8 +47,10 @@ Other useful lessons
      * [Lisa's tutorial](LC-github.html)
      * [tutorial from ANGUS 2017](github.html)
 
-
 Potentially interesting:
+* Lecture: [Annotation](_static/Jane_transcriptome_annotation.pdf) (Jane)
+* Hands-on: [Transcriptome annotation](dammit_annotation.html) (Lisa)
+
 * [Reference independent analyses with k-mers; sourmash.](kmers-and-sourmash.html)
    
 
