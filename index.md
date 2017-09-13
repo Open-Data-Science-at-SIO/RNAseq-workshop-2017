@@ -1,107 +1,58 @@
-# DIBSI Nonmodel mRNASeq Workshop (2017) 
+# SIO Nonmodel mRNASeq Workshop (2017) 
 
 These are the schedule and classroom materials for the
-[2017 DIBSI nonmodel mRNAseq workshop at UC Davis](http://dibsi-rnaseq.readthedocs.io/en/latest/),
-which will run from July 17th to July 21st, 2017.
+[2017 RNAseq workshop at SIO](http://sio-rnaseq.readthedocs.io/en/latest/),
+which will run from Oct 10-11, 2017.
 
 This workshop runs under a [Code of Conduct](code-of-conduct.html). Please
 respect it and be excellent to each other!
 
 If you're not comfortable working on the command line, please work through some of this [command-line bootcamp](http://rik.smith-unna.com/command_line_bootcamp/) before the workshop.
 
-Twitter hash tag: [#ngs2017](https://twitter.com/search?f=tweets&q=%23ngs2017&src=typd)
-
 **Schedule and Location**:  
 
-9am-3pm + M/Th evenings (6:30-8pm)  
+9am-5pm both days, with 1hr break for lunch?
 
-All sessions are in **Valley Hall**, unless otherwise noted.
+All sessions are in **Eckhart?**, unless otherwise noted.
+
 
 ## Workshop materials
 
 
-### Monday, Day 1: Introduction and QC
+### Wednesday, Day 1: Introduction, QC, Read Quantification
 
-* 11am: Introductions & RNA-Seq uses & pitfalls
-* 1:15pm: All-hands gathering to introduce across all workshops 
-* 3pm: Intro & setup
+* pre-workshop: please ensure that you have a terminal emulator installed on your laptop.
+
+* 9am: Introductions & RNA-Seq uses & pitfalls
 * Hands-on:
    * [Booting a cloud computer from Jetstream](jetstream/boot.html)
    * [Quality trimming your reads](quality-trimming.html)
-   * Using ssh to log in (instead of the web shell):
+
+* Lecture: [Quantification](_static/quantification_slides_Patro_subset.pdf) 
+*  Hands-on: [Quantification with Salmon](quantification.html)
+   
+Other useful lessons   
+* Using ssh to log in (instead of the web shell):
      * [Log in using a password](jetstream/ssh_changepassword.html)
      * *OR* [Add ssh keys to your instance](jetstream/login.html)
 
+### Thursday, Day 2: Differential Expression, downstream assessment, and Reproducibility
+   
+* Lecture: [Differential Expression](_static/Jane_differential_expression.pdf)
+* Hands-on: [Differential Expression with DESeq2](DE.html) 
 
-
-* 6:30pm-8pm: student presentations and questions! (social)
-
-
-### Tuesday, Day 2: Assembly and Evaluation
-
-Morning: 9am-12pm
-
-* Lecture: Kmers, de bruijn graphs, diginorm, and assembly (C. Titus Brown)
-* Hands-on: [De novo RNAseq assembly](_static/assembly-trinity.html) (Tessa)
-
-Afternoon: 1:15pm - 3pm.  
-
-* Lecture: [Assembly evaluation](_static/Jane_assembly_stats.pdf) (Jane)
-* Hands-on: [Assembly evaluation](evaluation.html) (Lisa)
-
-Evening: free time
-
-### Wednesday, Day 3: Annotation and Quantification
-
-Morning 9am-12pm
- 
-* Lecture: [Annotation](_static/Jane_transcriptome_annotation.pdf) (Jane)
- * Hands-on: [Transcriptome annotation](dammit_annotation.html) (Lisa)
-
-
-Afternoon: 1:15pm - 4pm 
-
-* Lecture: [Quantification](_static/quantification_slides_Patro_subset.pdf) (Tessa)
-*  Hands-on: [Quantification with Salmon](quantification.html) (Tessa)
-
-
-Evening: free time / social [Wed Farmers' market!](http://www.davisfarmersmarket.org/). We'll be over there starting at ~5:30pm.
-
-### Thursday, Day 4: Differential Expression and Downstream Assessment
-
-Morning 9am-12pm
- 
-* Lecture: [Differential Expression](_static/Jane_differential_expression.pdf) (Jane)
-* Hands-on: [Differential Expression with DESeq2](DE.html) (Lisa)
-
-Afternoon: 1:15pm - 3pm.  
-
-* Lecture: RNA-Seq Study design
-* Options:
-  * Hands-on: own data!
-  * [Reference independent analyses with k-mers; sourmash.](kmers-and-sourmash.html) (Tessa)
-
-
-Evening 6:30pm-8pm
-
-* Hands-on: own data!
-
-
-### Friday, Day 5:  Wrap-Up (+ optional Github)
-
-Morning 9am-12pm  
-
-9am: All-hands wrap-up 
-
-Since housing checkout is at 12, everything is optional after the hands-on meeting. We will run a brief intro to github, and then depending on interest, one or more of the instructors can stick around to teach additional automation tutorials or help you with your own data.
- 
-(Optional) Morning Hands-on:  
-
-  *  GitHub tutorials:  
+* Discussion: RNA-Seq Study design
+  
+*  GitHub tutorials:  
      * [Lisa's tutorial](LC-github.html)
      * [tutorial from ANGUS 2017](github.html)
- 
- 
+
+
+Potentially interesting:
+* [Reference independent analyses with k-mers; sourmash.](kmers-and-sourmash.html)
+   
+
+
 #### Useful Further Resources:  
  Note that these are taken from the 2017 [ANGUS](http://angus.readthedocs.io/en/2017/index.html) workshop
 
@@ -118,3 +69,6 @@ Since housing checkout is at 12, everything is optional after the hands-on meeti
 *  C. Titus Brown, UC Davis - ["Effectively infinite: next steps in Data Intensive Biology."](https://osf.io/pbmeh/)
 * [Assessing & assembling nanopore data](analyzing_nanopore_data.html) (Lisa Cohen and Jon Badalamenti)
 
+
+
+*format copied from ctb dibsi 2017 materials*
