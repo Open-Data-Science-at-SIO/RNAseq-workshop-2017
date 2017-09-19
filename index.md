@@ -11,48 +11,34 @@ If you're not comfortable working on the command line, please work through some 
 
 **Schedule and Location**:  
 
-9am-5pm both days, with 1hr break for lunch?
-
-All sessions are in **Eckhart?**, unless otherwise noted.
+All sessions are in the Eckhart Sea Cave, unless otherwise noted. The workshop runs from 9am-5pm, with a 1 hour break for lunch.
 
 
 ## Workshop materials
 
 
-### Wednesday, Day 1: Introduction, QC, Read Quantification
+### Wednesday, Day 1: Introduction, QC, Assembly, and Quantification
 
-* pre-workshop: please ensure that you have a terminal emulator installed on your laptop.
-
-* 9am: Introductions & RNA-Seq uses & pitfalls
-* Hands-on:
+   * Introductions, RNA-Seq uses & pitfalls
    * [Booting a cloud computer from Jetstream](jetstream/boot.html)
    * [Quality trimming your reads](quality-trimming.html)
 
-* Lecture: [Quantification](_static/quantification_slides_Patro_subset.pdf) 
-*  Hands-on: [Quantification with Salmon](quantification.html)
+Lunch Break
+
+   * [De novo RNAseq assembly](_static/assembly-trinity.html)
+   * Discussion: RNA-Seq study design 
+   * [Quantification with Salmon](quantification.html)  *(might be pushed to thurs morning)*
+
+
+### Thursday, Day 2: Differential Expression, Downstream Analyses, Alternate RNA-Seq pipelines & resources
    
-Other useful lessons   
-* Using ssh to log in (instead of the web shell):
-     * [Log in using a password](jetstream/ssh_changepassword.html)
-     * *OR* [Add ssh keys to your instance](jetstream/login.html)
+   * [Differential Expression with DESeq2](DE.html) 
+   * Discussion & examples: downstream analyses
 
-### Thursday, Day 2: Differential Expression, downstream assessment, and Reproducibility
-   
-* Lecture: [Differential Expression](_static/Jane_differential_expression.pdf)
-* Hands-on: [Differential Expression with DESeq2](DE.html) 
+Lunch Break
 
-* Discussion: RNA-Seq Study design
-  
-*  GitHub tutorials:  
-     * [Lisa's tutorial](LC-github.html)
-     * [tutorial from ANGUS 2017](github.html)
-
-Potentially interesting:
-* Lecture: [Annotation](_static/Jane_transcriptome_annotation.pdf)
-* Hands-on: [Transcriptome annotation](dammit_annotation.html)
-
-* [Reference independent analyses with k-mers; sourmash.](kmers-and-sourmash.html)
-   
+   * Discussion: Modifications & Considerations for microbial transcriptomics & metatranscriptomics
+    
 
 
 #### Useful Further Resources:  
@@ -71,6 +57,22 @@ Potentially interesting:
 *  C. Titus Brown, UC Davis - ["Effectively infinite: next steps in Data Intensive Biology."](https://osf.io/pbmeh/)
 * [Assessing & assembling nanopore data](analyzing_nanopore_data.html) (Lisa Cohen and Jon Badalamenti)
 
+Related/useful lessons:
+* Lecture: [Assembly evaluation](_static/Jane_assembly_stats.pdf)
+* Hands-on: [Assembly evaluation](evaluation.html)
+* Lecture: [Quantification](_static/quantification_slides_Patro_subset.pdf) 
+* Lecture: [Differential Expression](_static/Jane_differential_expression.pdf)
 
+* Using ssh to log in (instead of the web shell):
+     * [Log in using a password](jetstream/ssh_changepassword.html)
+     * *OR* [Add ssh keys to your instance](jetstream/login.html)
+
+Potentially interesting:
+* Lecture: [Annotation](_static/Jane_transcriptome_annotation.pdf)
+* Hands-on: [Transcriptome annotation](dammit_annotation.html)
+*  GitHub tutorials:  
+     * [Lisa's tutorial](LC-github.html)
+     * [tutorial from ANGUS 2017](github.html)
+* [Reference independent analyses with k-mers; sourmash.](kmers-and-sourmash.html)
 
 *format copied from ctb dibsi 2017 materials*
