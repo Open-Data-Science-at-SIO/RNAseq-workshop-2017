@@ -2,7 +2,8 @@
 
 These are the schedule and classroom materials for the
 [2017 RNAseq workshop at SIO](http://sio-rnaseq.readthedocs.io/en/latest/),
-which will run from Oct 10-11, 2017.
+which will run from Oct 11-12, 2017. This will be followed by an Oct 13th lecture from instructor
+Lisa Komoroske as part of the Marine Biology Seminar Series.
 
 This workshop runs under a [Code of Conduct](code-of-conduct.html). Please
 respect it and be excellent to each other!
