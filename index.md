@@ -76,4 +76,3 @@ Potentially interesting:
      * [tutorial from ANGUS 2017](github.html)
 * [Reference independent analyses with k-mers; sourmash.](kmers-and-sourmash.html)
 
-*format copied from ctb dibsi 2017 materials*
