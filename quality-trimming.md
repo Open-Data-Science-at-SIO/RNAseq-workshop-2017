@@ -14,14 +14,18 @@ titus@js-17-71:~$
 
 ## Installing some software
 
-Run:
+Run this:
 
 ```
 sudo apt-get -y update && \
 sudo apt-get -y install trimmomatic fastqc python-pip \
-   samtools zlib1g-dev ncurses-dev python-dev
-pip install multiqc   
+   samtools zlib1g-dev ncurses-dev python-dev 
 ```
+Then this:
+```
+pip install multiqc  
+```
+
 `apt-get install` doesn't work properly for `fastqc`. So we will update the default `fastqc` version using the following commands
 
 ```
