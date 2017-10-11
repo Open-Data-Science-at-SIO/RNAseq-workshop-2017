@@ -193,7 +193,7 @@ scp username@ip.address:/mnt/work/quality/*html ~/Desktop/nema_fastqc
 ```
 where the first argument after `scp` is your login and path for the files we want to copy (from the jetstream instance), and the second argument is the path to place the files on our own computer.
 
-If you are unable to use scp though a terminal output, please download this fastqc html [example](_static/6Hour_CGATGT_L002_R2_003.extract_fastqc.html)
+If you are unable to use scp though a terminal output, you can see the fastqc html output [here](_static/6Hour_CGATGT_L002_R2_003.extract_fastqc.html)
 
 ### Find the right Illumina adapters
 
