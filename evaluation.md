@@ -6,7 +6,7 @@ We will be using Transrate and Busco!
 
 ```
 sudo apt-get -y install python3-dev hmmer unzip \
-    infernal ncbi-blast+ liburi-escape-xs-perl emboss liburi-perl \
+    ncbi-blast+ liburi-escape-xs-perl emboss liburi-perl \
     build-essential libsm6 libxrender1 libfontconfig1 \
     parallel libx11-dev python3-venv last-align transdecoder
 ```
@@ -129,3 +129,10 @@ cat run_nema_busco_metazoa/short_summary_nema_busco_metazoa.txt
 ```
 
 How does the full transcriptome compare?
+
+
+When you're finished, exit out of this virtual environment
+```
+deactivate
+```
+
