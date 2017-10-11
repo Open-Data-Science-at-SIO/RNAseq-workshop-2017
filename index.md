@@ -56,7 +56,18 @@ Lunch Break
 
 
 #### Useful Further Resources:  
- Note that these are taken from the 2017 [ANGUS](http://angus.readthedocs.io/en/2017/index.html) workshop
+ Note that these are taken from the 2017 [ANGUS](http://angus.readthedocs.io/en/2017/index.html) workshop and week-long [DIBSI RNA-Seq workshop](http://dibsi-rnaseq.readthedocs.io/en/latest/)
+
+Additional RNAseq:  
+
+* Lecture: [Assembly evaluation](_static/Jane_assembly_stats.pdf)
+* Hands-on: [Assembly evaluation](evaluation.html)
+* Lecture: [Annotation](_static/Jane_transcriptome_annotation.pdf)
+* Hands-on: [Transcriptome annotation](dammit_annotation.html)
+* Lecture: [Quantification](_static/quantification_slides_Patro_subset.pdf) 
+* Lecture: [Differential Expression](_static/Jane_differential_expression.pdf)
+
+Generally useful or interesting:  
 
 * [Introduction to automation](introduction-to-automation.html)
 * [Jupyter Notebook, R and Python for data science.](jupyter-notebook-demo/Jupyter-Notebook-Notes.html)
@@ -71,19 +82,11 @@ Lunch Break
 *  C. Titus Brown, UC Davis - ["Effectively infinite: next steps in Data Intensive Biology."](https://osf.io/pbmeh/)
 * [Assessing & assembling nanopore data](analyzing_nanopore_data.html) (Lisa Cohen and Jon Badalamenti)
 
-Related/useful lessons:
-* Lecture: [Assembly evaluation](_static/Jane_assembly_stats.pdf)
-* Hands-on: [Assembly evaluation](evaluation.html)
-* Lecture: [Quantification](_static/quantification_slides_Patro_subset.pdf) 
-* Lecture: [Differential Expression](_static/Jane_differential_expression.pdf)
 
 * Using ssh to log in (instead of the web shell):
      * [Log in using a password](jetstream/ssh_changepassword.html)
      * *OR* [Add ssh keys to your instance](jetstream/login.html)
 
-Potentially interesting:
-* Lecture: [Annotation](_static/Jane_transcriptome_annotation.pdf)
-* Hands-on: [Transcriptome annotation](dammit_annotation.html)
 *  GitHub tutorials:  
      * [Lisa's tutorial](LC-github.html)
      * [tutorial from ANGUS 2017](github.html)
