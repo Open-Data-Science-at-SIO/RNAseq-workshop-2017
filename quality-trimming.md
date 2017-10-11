@@ -19,8 +19,7 @@ Run:
 ```
 sudo apt-get -y update && \
 sudo apt-get -y install trimmomatic fastqc python-pip \
-   samtools zlib1g-dev ncurses-dev python-dev
-pip install multiqc   
+   samtools zlib1g-dev ncurses-dev python-dev 
 ```
 `apt-get install` doesn't work properly for `fastqc`. So we will update the default `fastqc` version using the following commands
 
@@ -256,34 +255,10 @@ Links:
 
 * [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
 
-
-### MultiQc
-[MultiQC](http://multiqc.info/) aggregates results across many samples into a single report for easy comparison.
-
-Run Mulitqc on both the untrimmed and trimmed files
-
-```
-multiqc .
-```
-
-And now you should see output that looks like this:
-
-```
-[INFO   ]         multiqc : This is MultiQC v1.0
-[INFO   ]         multiqc : Template    : default
-[INFO   ]         multiqc : Searching '.'
-Searching 15 files..  [####################################]  100%
-[INFO   ]          fastqc : Found 4 reports
-[INFO   ]         multiqc : Compressing plot data
-[INFO   ]         multiqc : Report      : multiqc_report.html
-[INFO   ]         multiqc : Data        : multiqc_data
-[INFO   ]         multiqc : MultiQC complete
-```
-
-You can view output html file
-[multiqc_report.html](_static/multiqc_report.html)
-
 Questions:
 
 * is the quality trimmed data "better" than before?
 * Does it matter that you still have adapters!?
+
+#### MultiQc
+If you would like to aggregate all of your fastqc reports across many samples, [MultiQC](http://multiqc.info/) will do this into a single report for easy comparison.
