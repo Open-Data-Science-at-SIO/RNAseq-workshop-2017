@@ -1,25 +1,13 @@
 Workshop Code of Conduct
 ========================
 
-All attendees, speakers, sponsors and volunteers at our workshop
-are required to agree with the following code of conduct. Organisers
-will enforce this code throughout the event. We are expecting
-cooperation from all participants to help ensuring a safe environment
-for everybody.
+All attendees and volunteers at our workshop are required to agree with
+the following code of conduct. Organisers will enforce this code throughout
+the event. We are expecting cooperation from all participants to help ensure
+a safe environment for everybody.
 
 **tl; dr: be excellent to each other.**
 
-Need Help?
-----------
-
-You can reach the course director, Titus Brown, at ctbrown@ucdavis.edu
-or via the cell phone number he has sent out.  You can also talk to
-any of the instructors or TAs if you need immediate help, or (in an
-emergency) call 911.
-
-Sue McClatchy, Susan.McClatchy@jax.org is the person to contact if
-Titus is not available or there are larger problems; she is readily
-available by e-mail.
 
 The Quick Version
 -----------------
@@ -57,9 +45,9 @@ or have any other concerns, please contact a member of workshop
 staff immediately.
 
 Workshop instructors and TAs will be happy to help participants
-contact KBS security or local law enforcement, provide escorts, or
-otherwise assist those experiencing harassment to feel safe for the
-duration of the workshop. We value your attendance.
+contact local law enforcement or otherwise assist those experiencing 
+harassment to feel safe for the duration of the workshop.
+We value your attendance.
 
 We expect participants to follow these rules at workshop and workshop
 venues and workshop-related social events.
