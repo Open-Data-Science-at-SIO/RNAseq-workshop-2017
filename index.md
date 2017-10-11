@@ -45,6 +45,16 @@ Lunch Break
     
 
 
+### Instructors
+
+  * Lisa Komoroske - UMass Amherst / NOAA
+  * Tessa Pierce - UC Davis
+  * Lisa Johnson - UC Davis
+  * John McCrow- JCVI
+  * Luke Thompson- NOAA
+
+
+
 #### Useful Further Resources:  
  Note that these are taken from the 2017 [ANGUS](http://angus.readthedocs.io/en/2017/index.html) workshop
 
