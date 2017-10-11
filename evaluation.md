@@ -47,7 +47,7 @@ cd ~/busco/config/
 cp config.ini.default config.ini
 ```
 
-Open the config file and Replace path to hmmsearch executable to `/usr/bin/`
+Open the config file in a text editor (e.g. nano, vim) and replace path to hmmsearch executable with `/usr/bin/`
 
 ```
 export PATH=$HOME/busco/scripts:$PATH
