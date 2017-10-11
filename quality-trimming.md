@@ -295,3 +295,7 @@ And now you should see output that looks like this:
  [INFO   ]         multiqc : Data        : multiqc_data
  [INFO   ]         multiqc : MultiQC complete
 ```
+
+
+You can also view this output [here](_static/multiqc_report.html)
+
