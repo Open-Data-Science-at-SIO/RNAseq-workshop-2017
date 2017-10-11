@@ -11,7 +11,8 @@ sudo apt-get -y install python3-dev hmmer unzip \
     parallel libx11-dev python3-venv last-align transdecoder
 ```
 
-Create a virtual environment with python 3 and enter into it
+BUSCO requires python 3. 
+Create a virtual environment with python 3 and enter into it:
 
 ```
 virtualenv -p python3 ~/bin/py3
@@ -30,8 +31,8 @@ sudo curl -SL https://bintray.com/artifact/download/blahah/generic/transrate-1.0
 cd transrate-1.0.3-linux-x86_64 
 ./transrate --install-deps ref
 rm -f bin/librt.so.1
-echo 'export PATH=$PATH:"$HOME/transrate-1.0.3-linux-x86_64"' >> ~/pondenv/bin/activate
-source ~/pondenv/bin/activate
+echo 'export PATH=$PATH:"$HOME/transrate-1.0.3-linux-x86_64"' >> ~/py3/bin/activate
+source ~/py3/bin/activate
 ```
 
 ### Install BUSCO
