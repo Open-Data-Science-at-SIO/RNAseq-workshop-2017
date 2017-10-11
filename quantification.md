@@ -76,7 +76,7 @@ We can download a full assembly to use for mapping. This assembly was made with 
    ln -s trinity-nematostella-raw.fa trinity.nema.full.fasta
 ```
 
-Note: if you prefer, you can use the annotated assembly we generated with the read subsets instead
+Note: if you prefer, you can download an annotated assembly we previously generated with these read subsets
 ```
    #ln -s ${PROJECT}/annotation/trinity.nema.fasta.dammit/trinity.nema.fasta.dammit.fasta ./trinity.nema.annot.fasta 
 ```
@@ -145,9 +145,7 @@ expression -- take a look
 ```
 
 The first column contains the transcript names, and the
-fifth column is what edgeR etc will want - the "raw counts".
-However, they're not in a convenient location / format for edgeR to use;
-let's fix that.
+fifth column is what DESeq2, edgeR, etc will want - the "raw counts".
 
 # Other useful tutorials and references
 https://github.com/ngs-docs/2015-nov-adv-rna/blob/master/salmon.rst
