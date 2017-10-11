@@ -11,10 +11,11 @@ sudo apt-get -y install python3-dev hmmer unzip \
     parallel libx11-dev python3-venv last-align transdecoder
 ```
 
-Activate your python environment:
+Create a virtual environment with python 3 and enter into it
 
 ```
-source ~/pondenv/bin/activate
+virtualenv -p python3 ~/bin/py3
+source ~/bin/py3/bin/activate
 ```
 
 ## Transrate
