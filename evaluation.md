@@ -31,8 +31,8 @@ sudo curl -SL https://bintray.com/artifact/download/blahah/generic/transrate-1.0
 cd transrate-1.0.3-linux-x86_64 
 ./transrate --install-deps ref
 rm -f bin/librt.so.1
-echo 'export PATH=$PATH:"$HOME/transrate-1.0.3-linux-x86_64"' >> ~/py3/bin/activate
-source ~/py3/bin/activate
+echo 'export PATH=$PATH:"$HOME/transrate-1.0.3-linux-x86_64"' >> ~/bin/py3/bin/activate
+source ~/bin/py3/bin/activate
 ```
 
 ### Install BUSCO
