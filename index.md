@@ -17,6 +17,7 @@ All sessions are in the Eckart Sea Cave, unless otherwise noted. The workshop ru
 
 ## Workshop materials
 
+[Etherpad](https://etherpad.net/p/SIO_Transcriptomics_Workshop_2017)
 
 ### Wednesday, Day 1: Introduction, QC, Assembly, and Quantification
 
