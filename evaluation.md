@@ -106,7 +106,7 @@ transrate --reference=trinity-nematostella-raw.fa --assembly=Trinity.fixed.fasta
 
 ## BUSCO
 
-* Metazoa database used with 834 genes
+* Metazoa database used with 978 genes
 * "Complete" lengths are within two standard deviations of the BUSCO group mean length
 
 * Useful links:
