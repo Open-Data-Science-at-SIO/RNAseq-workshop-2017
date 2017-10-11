@@ -12,7 +12,7 @@ If you're not comfortable working on the command line, please work through some 
 
 **Schedule and Location**:  
 
-All sessions are in the Eckhart Sea Cave, unless otherwise noted. The workshop runs from 9am-5pm, with a 1 hour break for lunch.
+All sessions are in the Eckart Sea Cave, unless otherwise noted. The workshop runs from 9am-5pm, with a 1 hour break for lunch.
 
 
 ## Workshop materials
@@ -26,7 +26,7 @@ All sessions are in the Eckhart Sea Cave, unless otherwise noted. The workshop r
 
 Lunch Break
 
-   * [De novo RNAseq assembly](_static/assembly-trinity.html)
+   * [De novo RNAseq assembly](assembly-trinity.html)
    * Discussion: RNA-Seq study design 
    * [Quantification with Salmon](quantification.html)  *(might be pushed to thurs morning)*
 
@@ -39,6 +39,9 @@ Lunch Break
 Lunch Break
 
    * Discussion: Modifications & Considerations for microbial transcriptomics & metatranscriptomics
+   * Options for hands-on: 
+     * github + data visualization demo
+     * automation
     
 
 

@@ -44,7 +44,7 @@ You will also need to set the default Java version to 1.8
 sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
 ```
 
-## Then, let's check we still have our reads from yesterday's QC lesson
+## Then, let's check we still have our reads from the QC lesson
 ```
 set -u
 printf "\nMy trimmed data is in $PROJECT/quality/, and consists of $(ls -1 ${PROJECT}/quality/*.qc.fq.gz | wc -l) files\n\n"

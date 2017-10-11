@@ -7,10 +7,9 @@ Below, we've provided screenshots of the whole process. You can click
 on them to zoom in a bit.  The important areas to fill in are circled
 in red.
 
-Some of the details may vary -- for example, if you have your own XSEDE
-account, you may want to log in with that -- and the name of the operating
-system or "image" may also vary from "Ubuntu 16.04" depending on the
-workshop.
+You should all have your own XSEDE accounts, so you'll want to log in 
+with that. For this workshop, we will use the "Ubuntu 16.04" operating system 
+"image," but this may change in the future if you continue to use jetstream.
 
 -----
 
@@ -31,30 +30,21 @@ on "Continue".
            
 [![foo](images/login-2.thumb.png)](../_images/login-2.png)
 
-## Fill in the username and password and click "Sign in"
+## Fill in your username and password and click "Sign in"
 
-Fill in the username, which is 'tx160085' for the ANGUS workshop,
-and then enter the password (which we will tell you in class).
+Fill in your username and password.
 
 [![foo](images/login-3.thumb.png)](../_images/login-3.png)
            
 ## Select Projects and "Create New Project"
 
-Now, this is something you only need to once if you have your own
-account - but if you're using a shared account like tx160085, you will
-need a way to keep your computers separate from everyone else's.
-
-We'll do this with Projects, which give you a bit of a workspace in which
-to keep things that belong to "you".
+We'll organize your workspace by creating a Project.
 
 Click on "Projects" up along the top.
 
 [![foo](images/login-5.thumb.png)](../_images/login-5.png)
            
-## Name the project for yourself, click "create"
-
-Enter your name into the Project Name, and something simple like "ANGUS"
-into the description. Then click 'create'.
+## Name the project and click "create"
 
 [![foo](images/login-6.thumb.png)](../_images/login-6.png)
 
@@ -79,8 +69,8 @@ June 21st, 2017.
            
 ## Name it something simple and select 'm1.medium'
 
-Change the name after what we're doing - "workshop tutorial", for example,
-but it doesn't matter -- and select 'm1.medium'.
+Name your instance after what we're doing (e.g. "RNAseq tutorial") 
+or anything that will be informative for you -- it doesn't matter -- and select 'm1.medium'.
 
 [![foo](images/login-10.thumb.png)](../_images/login-10.png)
 
@@ -93,11 +83,10 @@ Just wait! Don't reload or anything.
            
 ## Click on your new instance to get more information!
 
-Now, you can either click "Open Web Shell", *or*, if you know how to use ssh,
-you can ssh in as user 'tx160085' on the IP address of the machine - see
-circled information below.  Note that you'll need to use the private key
-file we sent around to everyone in last the pre-workshop e-mail if you decide to
-use your system terminal.
+Now, you can either click "Open Web Shell"
+
+If you know how to use ssh, you can ssh in as your username on the IP address 
+of the machine, but only if you add ssh keys or set a password on this machine.
 
 [![foo](images/login-12.thumb.png)](../_images/login-12.png)
 
