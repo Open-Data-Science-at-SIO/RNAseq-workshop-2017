@@ -14,13 +14,23 @@ titus@js-17-71:~$
 
 ## Installing some software
 
-Run:
+Run this:
 
 ```
 sudo apt-get -y update && \
 sudo apt-get -y install trimmomatic fastqc python-pip \
    samtools zlib1g-dev ncurses-dev python-dev 
 ```
+Then run this to install multiqc:
+
+```
+virtualenv ~/bin/MultiQC-1.2
+source ~/bin/MultiQC-1.2/bin/activate
+pip install networkx==1.11
+pip install multiqc==1.2
+deactivate
+```
+
 `apt-get install` doesn't work properly for `fastqc`. So we will update the default `fastqc` version using the following commands
 
 ```
@@ -260,5 +270,28 @@ Questions:
 * is the quality trimmed data "better" than before?
 * Does it matter that you still have adapters!?
 
-#### MultiQc
+#### MultiQC
+
 If you would like to aggregate all of your fastqc reports across many samples, [MultiQC](http://multiqc.info/) will do this into a single report for easy comparison.
+
+Run MultiQC:
+
+```
+source ~/bin/MultiQC-1.2/bin/activate
+cd ${PROJECT}/quality
+multiqc .
+```
+
+And now you should see output that looks like this:
+ 
+ ```
+ [INFO   ]         multiqc : This is MultiQC v1.0
+ [INFO   ]         multiqc : Template    : default
+ [INFO   ]         multiqc : Searching '.'
+ Searching 15 files..  [####################################]  100%
+ [INFO   ]          fastqc : Found 4 reports
+ [INFO   ]         multiqc : Compressing plot data
+ [INFO   ]         multiqc : Report      : multiqc_report.html
+ [INFO   ]         multiqc : Data        : multiqc_data
+ [INFO   ]         multiqc : MultiQC complete
+```
