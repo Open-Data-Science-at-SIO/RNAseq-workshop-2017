@@ -12,7 +12,7 @@ Table of Contents
    quality-trimming
    
    assembly-trinity
-   evalutation
+   evaluation
 
    quantification
    
