@@ -40,12 +40,10 @@ Lunch Break
 Lunch Break
 
    * [Differential Expression with DESeq2](DE.html) 
-      * Optional later: [Dammit Annotation](dammit_annotation.html)
+      * Optional, on your own time: [Dammit Annotation](dammit_annotation.html)
    * Discussion: Modifications & Considerations for microbial transcriptomics & metatranscriptomics
       * [Clustering example](http://htmlpreview.github.io/?https://raw.githubusercontent.com/Open-Data-Science-at-SIO/RNAseq-workshop-2017/master/clusters_tSNE_example.html)
-   * Options for hands-on: 
-     * github + data visualization demo
-     * automation
+   * Github + data visualization demo
     
 
 
