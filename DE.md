@@ -1,6 +1,8 @@
 # Differential expression analysis with DESeq2
 
-Comparing gene expression differences in samples between experimental conditions. We will be using [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
+Comparing gene expression differences in samples between experimental conditions. 
+
+We will be using [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 
 [Documentation for DESeq2 with example analysis](https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
 
