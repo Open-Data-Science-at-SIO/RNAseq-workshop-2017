@@ -2,11 +2,10 @@
 
 Comparing gene expression differences in samples between experimental conditions. 
 
-We will be using [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
-
-[Documentation for DESeq2 with example analysis](https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
+We will be using [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html).
 
 References:
+* [Documentation for DESeq2 with example analysis](https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
 * [Love et al. 2014](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0550-8)
 * [Love et al. 2016](https://www.nature.com/nbt/journal/v34/n12/full/nbt.3682.html)
 
