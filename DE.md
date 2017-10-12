@@ -69,7 +69,7 @@ mv *.quant salmon_out
 cd  salmon_out
 ```
 
-## Download gene names to your home directory
+## Download gene and transcript id relationships to your home directory
 
 Generated with [dammit](http://rnaseq-workshop-2017.readthedocs.io/en/latest/dammit_annotation.html) annotation and summarized with this [script](https://gist.github.com/ljcohen/3958c91fe39c92e51cb4544d0b6b8f24).
 ```
