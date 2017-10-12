@@ -8,6 +8,7 @@ gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
 gpg -a --export E084DAB9 | sudo apt-key add -
 
 sudo apt-get update && sudo apt-get install -y r-base r-base-dev gdebi-core
+
 ```
 ## Install RStudio Web server
 
@@ -97,7 +98,8 @@ files
 print(file.exists(files))
 ```
 
-Grab the gene names and transcript ID file: 
+Grab the gene names and transcript ID file to [summarize expression at the gene level](https://f1000research.com/articles/4-1521/v2).
+
 ```
 tx2gene <- read.table("~/nema_transcript_gene_id.txt",sep="\t")
 cols<-c("transcript_id","gene_id")
