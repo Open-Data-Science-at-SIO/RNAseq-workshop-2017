@@ -69,7 +69,7 @@ wget https://raw.githubusercontent.com/Open-Data-Science-at-SIO/RNAseq-workshop-
 
 ```
 
-## Grab a special script plotPCAWithSampleNames.R from Igor Dolgalev
+## Grab a special script plotPCAWithSampleNames.R from [Igor Dolgalev](https://med.nyu.edu/research/scientific-cores-shared-resources/applied-bioinformatics-laboratories/leadership)
 
 ```
 cd
