@@ -38,7 +38,8 @@ For further reading, see
 cd
 wget https://github.com/COMBINE-lab/salmon/releases/download/v0.8.2/Salmon-0.8.2_linux_x86_64.tar.gz
 tar xvfz Salmon-0.8.2_linux_x86_64.tar.gz
-export PATH=$PATH:$HOME/Salmon-0.8.2_linux_x86_64/bin 
+export PATH=$PATH:$HOME/Salmon-0.8.2_linux_x86_64/bin >> ~/.bashrc
+source ~/.bashrc
 ```
 
 
