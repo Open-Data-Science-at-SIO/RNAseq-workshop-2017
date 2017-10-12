@@ -1,0 +1,44 @@
+---
+title: "Example"
+output: html_document
+---
+
+1. Load the data
+```{r}
+library(Rtsne)
+library(ggplot2)
+
+dat = read.delim("example_cluster_data.txt")
+```
+
+2. Count gene content across species
+```{r}
+x = as.matrix(unique(dat[,-1]))
+x1 = x
+x1[x>0] = 1
+x1.rowsum = apply(x1, 1, sum)
+x.type = 100.0 * x1.rowsum / ncol(x)
+```
+
+3. Try a simple PCA to visualize MCL clusters
+```{r}
+pcafit = prcomp(x)
+plot(pcafit$x[,1], pcafit$x[,2], pch=20, col="#00000030", xlab="PCA 1", ylab="PCA 2")
+```
+
+4. Dimension reduction using tSNE of MCL clusters
+```{r}
+if(file.exists("example_tSNE.table.txt")) {
+    tsne = read.table("example_tSNE.table.txt", sep="\t", header=T, quote="")[,1:2]
+} else {
+  x.tsne = Rtsne(x)
+  tsne = x.tsne$Y
+}
+```
+
+5. Draw a 2D plot of MCL clusters in relation to their shared gene content
+```{r}
+df=data.frame(tsne, x.type)
+names(df)=c("x","y","species")
+ggplot(df, aes(x=x, y=y, color=species)) + geom_point() +     scale_color_gradient("% species", low="black", high="red")
+```
