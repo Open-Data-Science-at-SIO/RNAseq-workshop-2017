@@ -133,8 +133,9 @@ Get counts:
 counts_table = counts( dds, normalized=TRUE )
 ```
 
-Filter out low expression transcripts:
+Filtering out low expression transcripts:
 
+(See plot from [Lisa Komoroske](_static/Before-after_filter.pdf)
 ```
 filtered_norm_counts<-counts_table[!rowSums(counts_table==0)>=1, ]
 filtered_norm_counts<-as.data.frame(filtered_norm_counts)
