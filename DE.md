@@ -69,7 +69,9 @@ wget https://raw.githubusercontent.com/Open-Data-Science-at-SIO/RNAseq-workshop-
 
 ```
 
-## Grab a special script plotPCAWithSampleNames.R from [Igor Dolgalev](https://med.nyu.edu/research/scientific-cores-shared-resources/applied-bioinformatics-laboratories/leadership)
+## Grab a special script plotPCAWithSampleNames.R
+
+from [Igor Dolgalev](https://med.nyu.edu/research/scientific-cores-shared-resources/applied-bioinformatics-laboratories/leadership)
 
 ```
 cd
@@ -135,7 +137,7 @@ counts_table = counts( dds, normalized=TRUE )
 
 Filtering out low expression transcripts:
 
-(See plot from [Lisa Komoroske](_static/Before-after_filter.pdf)
+See plot from [Lisa Komoroske](_static/Before-after_filter.pdf)
 ```
 filtered_norm_counts<-counts_table[!rowSums(counts_table==0)>=1, ]
 filtered_norm_counts<-as.data.frame(filtered_norm_counts)
