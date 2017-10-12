@@ -91,8 +91,8 @@ Build an index for your new transcriptome:
 Next, link in the QC reads (produced in [quality](quality-trimming.html):
 
 ```
-   ln -s ../quality/*R1*.qc.fq.gz .
-   ln -s ../quality/*R2*.qc.fq.gz .
+   ln -s ../data/*R1*.fastq.gz .
+   ln -s ../data/*R2*.fastq.gz .
 ```
 
 Then, run the salmon command:
