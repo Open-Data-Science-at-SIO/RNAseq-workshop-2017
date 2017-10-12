@@ -1,5 +1,9 @@
 # Differential expression analysis with DESeq2
 
+Comparing differences between experimental conditions. 
+
+[DE lecture by Jane Khudyakov, July 2017](_static/Jane_differential_expression.pdf)
+
 ## Upgrade R (3.4.x)
 
 ```
