@@ -59,8 +59,6 @@ export PROJECT=/mnt/work
 ```
 and then re-run the `printf` code block.
 
-NOTE: if you do not have files, please rerun quality trimming steps [here](quality-trimming.html)
-
 ## Download or link an assembly
 
 We can download a full assembly to use for mapping. This assembly was made with all Nematostella vectensis reads, rather than the subset we used in the [assembly](assembly-trinity.html) tutorial.
@@ -75,11 +73,6 @@ We can download a full assembly to use for mapping. This assembly was made with 
    curl -O https://s3.amazonaws.com/public.ged.msu.edu/trinity-nematostella-raw.fa.gz
    gunzip trinity-nematostella-raw.fa.gz
    ln -s trinity-nematostella-raw.fa trinity.nema.full.fasta
-```
-
-Note: if you prefer, you can download an annotated assembly we previously generated with these read subsets
-```
-   #ln -s ${PROJECT}/annotation/trinity.nema.fasta.dammit/trinity.nema.fasta.dammit.fasta ./trinity.nema.annot.fasta 
 ```
 
 ## Run Salmon
