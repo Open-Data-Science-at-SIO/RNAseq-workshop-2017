@@ -118,7 +118,7 @@ tx2gene <- read.table("~/nema_transcript_gene_id.txt",sep="\t")
 cols<-c("transcript_id","gene_id")
 colnames(tx2gene)<-cols
 head(tx2gene)
-txi.salmon <- tximport(files, type = "salmon", tx2gene = tx2gene)
+txi.salmon <- tximport(files, type = "salmon", tx2gene = tx2gene,importer=read.delim)
 head(txi.salmon$counts)
 dim(txi.salmon$counts)
 ```
