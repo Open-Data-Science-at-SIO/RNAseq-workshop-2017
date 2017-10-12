@@ -98,9 +98,9 @@ Next, link in the QC reads (produced in [quality](quality-trimming.html):
 Then, run the salmon command:
 
 ```
-  for R1 in *R1*.qc.fq.gz
+  for R1 in *R1*.fastq.gz
   do
-    sample=$(basename $R1 extract.qc.fq.gz)
+    sample=$(basename $R1 extract.fastq.gz)
     echo sample is $sample, R1 is $R1
     R2=${R1/R1/R2}
     echo R2 is $R2
