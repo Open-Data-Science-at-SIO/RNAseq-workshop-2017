@@ -107,7 +107,6 @@ txi.salmon <- tximport(files, type = "salmon", tx2gene = tx2gene)
 head(txi.salmon$counts)
 dim(txi.salmon$counts)
 ```
-
 Assign experimental variables:
 
 ```
