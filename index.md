@@ -28,18 +28,19 @@ All sessions are in the Eckart Sea Cave, unless otherwise noted. The workshop ru
 Lunch Break
 
    * [De novo RNAseq assembly](assembly-trinity.html)
-   * [Basic assembly evaluation](evaluation.html)
+   * [Assembly evaluation](evaluation.html)
    * Discussion: RNA-Seq study design 
 
 
 ### Thursday, Day 2: Differential Expression, Downstream Analyses, Alternate RNA-Seq pipelines & resources
    
    * [Quantification with Salmon](quantification.html) 
-   * [Differential Expression with DESeq2](DE.html) 
    * Discussion & examples: downstream analyses
 
 Lunch Break
 
+   * [Differential Expression with DESeq2](DE.html) 
+      * Optional later: [Dammit Annotation](dammit_annotation.html)
    * Discussion: Modifications & Considerations for microbial transcriptomics & metatranscriptomics
    * Options for hands-on: 
      * github + data visualization demo
