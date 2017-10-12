@@ -46,7 +46,7 @@ export PATH=$PATH:$HOME/Salmon-0.8.2_linux_x86_64/bin
 ## Then, let's check we still have our reads from yesterday's QC work
 ```
 set -u
-printf "\nMy trimmed data is in $PROJECT/quality/, and consists of $(ls -1 ${PROJECT}/quality/*.qc.fq.gz | wc -l) files\n\n"
+printf "\nMy trimmed data is in $PROJECT/data/, and consists of $(ls -1 ${PROJECT}/data/*.fastq.gz | wc -l) files\n\n"
 set +u
 
 ```
