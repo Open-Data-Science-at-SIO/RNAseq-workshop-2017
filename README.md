@@ -9,7 +9,7 @@ and remix.
 
 Instructors (alphabetical):
 
-* Lisa Cohen
+* Lisa Johnson
 
 * Lisa Komoroske
 
