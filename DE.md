@@ -9,29 +9,27 @@ gpg -a --export E084DAB9 | sudo apt-key add -
 
 sudo apt-get update && sudo apt-get install -y r-base r-base-dev gdebi-core
 ```
-
-## Make sure you're running RStudio
-
-For this, we will again be working exclusively in RStudio!  Try to connect to a
-running RStudio Web server instance -- you can get the Web address by
-running this command:
-
-```
-echo My RStudio Web server is running at: http://$(hostname):8787/
-```
-
 ## Install RStudio Web server
 
-If you cannot connect, you'll need to install it:
+For this, we will be working in RStudio! 
 
 ```
 wget https://download2.rstudio.org/rstudio-server-1.0.143-amd64.deb
 sudo gdebi -n rstudio-server-1.0.143-amd64.deb
 ```
 
-And, finally, change the password to something you can remember:
+Change the password to something you can remember:
 ```
 sudo passwd username
+```
+
+## Make sure you're running RStudio
+
+Try to connect to a running RStudio Web server instance -- you can get the Web address by
+running this command:
+
+```
+echo My RStudio Web server is running at: http://$(hostname):8787/
 ```
 
 ## Install DESeq2 prereqs
@@ -40,11 +38,10 @@ sudo passwd username
 sudo apt-get install -y libxml2 libxml2-dev libcurl4-gnutls-dev libssl-dev
 ```
 
-and then install DESeq2:
+Then install DESeq2. This will take some time (>10 min). Good time for coffee break!
 
 ```
 curl -O -L https://github.com/ngs-docs/angus/raw/2017/_static/install-deseq2.R
-
 sudo Rscript --no-save install-deseq2.R
 ```
 
@@ -58,20 +55,16 @@ mkdir salmon_out
 #move the files
 mv *.quant salmon_out
 cd  salmon_out
-mv *full.quant ../ (move the "full" files back - we will work with just the subsets for now)
+```
+
+## Download gene names to your home directory (generated with [dammit](dammit_annotation.md) annotation)
+```
+cd
+wget https://raw.githubusercontent.com/Open-Data-Science-at-SIO/RNAseq-workshop-2017/master/_static/nema_transcript_gene_id.txt
 
 ```
 
-## Move the gene names to your home directory (to easily access it)
-```
-cp /mnt/work/annotation/trinity.nema.fasta.dammit/nema_gene_name_id.csv ~/
-
-```
-if you didn't run the annotation, and would like to download ours, download [here](_static/nema_gene_name_id.csv)
-
-
-
-## Grab a special script plotPCAWithSampleNames.R
+## Grab a special script plotPCAWithSampleNames.R from Igor Dolgalev
 
 ```
 cd
@@ -104,12 +97,11 @@ files
 print(file.exists(files))
 ```
 
-Grab the gene name and transcript ID file we generated yesterday: 
+Grab the gene names and transcript ID file: 
 ```
-gene_names <- read.csv("~/nema_gene_name_id.csv")
-cols<-c("row","transcript_id","gene_id")
-colnames(gene_names)<-cols
-tx2gene<-gene_names[,2:3]
+tx2gene <- read.table("~/nema_transcript_gene_id.txt",sep="\t")
+cols<-c("transcript_id","gene_id")
+colnames(tx2gene)<-cols
 head(tx2gene)
 txi.salmon <- tximport(files, type = "salmon", tx2gene = tx2gene)
 head(txi.salmon$counts)
