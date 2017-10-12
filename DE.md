@@ -102,7 +102,7 @@ files
 print(file.exists(files))
 ```
 
-Grab the [gene names](_static/nema_transcript_gene_id.txt) and transcript ID file to [summarize expression at the gene level](https://f1000research.com/articles/4-1521/v2).
+Grab the [gene names](https://raw.githubusercontent.com/Open-Data-Science-at-SIO/RNAseq-workshop-2017/master/_static/nema_transcript_gene_id.txt) and transcript ID file to [summarize expression at the gene level](https://f1000research.com/articles/4-1521/v2).
 
 ```
 tx2gene <- read.table("~/nema_transcript_gene_id.txt",sep="\t")
