@@ -31,7 +31,6 @@ Your repo should look something like this:
 # Edit README.md
 
 Click on the pen icon to edit README.md to edit the file. Here is a [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
-[Why README.md is necessary](https://changelog.com/top-ten-reasons-why-i-wont-use-your-open-source-project)
 
 Add some formatting things, like [hyperlinks](http://whatshouldwecallgradschool.tumblr.com) and lists:
 
@@ -59,11 +58,13 @@ This will create a new directory named `super_awesome_killifish_data` and downlo
 
 # Fork an existing repository
 
-Now we will do something else. We've been making some important files during this NGS 2016 course. Let's all collaborate and decide what those files are. I have created a repository of files that I think are important. [Click on this link](https://github.com/ljcohen/ngs2016_important_files) to go to my github repo and fork it.
+Now we will do something else. Let's say we made some important files during an NGS course. Let's all collaborate and decide what those files are. I created a repository of files. Perhaps you would like to modify this collection. [Click on this link](https://github.com/ljcohen/ngs2016_important_files) to go to this github repo and fork it.
 
    [![git_fork](_static/git_fork.thumb.png)](_static/git_fork.png)
    
-This will fork the repository into your account. Make sure that you can see it listed as a repository on your profile. You have just created a copy of all the files from my repo and brought them into your profile. Now, git clone this new repository by copying the url like you did before and typing.
+This will fork the repository into your account. Make sure that you can see it listed as a repository on your profile. You have just created a copy of all the files from my repo and brought them into your profile! 
+
+Now, clone this new repository by copying the url like you did before and typing.
    
    ```
    git clone https://github.com/youraccountname/ngs2016_important_files.git
@@ -73,25 +74,27 @@ This will fork the repository into your account. Make sure that you can see it l
 
 # Make changes, commit and push changes
 
-Now, locate this `ngs2016_important_files` directory on your local computer and make some changes (any changes!). Copy files into or edit existing files here. What are some important files you have from this course that you would like everyone else to have? Perhaps you do not like my `README.md` file....
-
+When you clone a repository, you are creating a directory (folder) onto your home computer by this name. Locate this `ngs2016_important_files` directory on your local computer. Make some changes (any changes!), such as copying a random file(s) or editing any existing files. What are some important files you have from this course that you would like everyone else to have? Perhaps you would like to propose changes to the `README.md` file?
 
 Once you have made these changes, commit and push these changes to your github profile.
 
-In your local terminal, type:
+First, on your local terminal, type:
    
    ```
    git add --all
    git checkout
    ```
 
-You should see a record of the changes you've made. Then type:
+This will check and display a list of the changes you've made. Then type:
    
    ```
    git commit -m "this is a special message from Lisa"
    ```
 
-This will commit the changes made and get them ready for uploading. Now upload with this command:
+This will commit the changes made and get them ready for uploading. 
+
+
+Now upload with this command:
  
    ```
    git push origin master
@@ -99,7 +102,7 @@ This will commit the changes made and get them ready for uploading. Now upload w
 
 Open your profile on the web and you should see the files!
 
-Your repo may get behind other changes I'm making or others are making. We will not make sure your repo is up-to-date. To see the address of the remote repo:
+Your repo may get behind other changes I'm making or others are making. We will now make sure your repo is up-to-date. To see the address of the remote repo:
    
    ```
    git remote -v
@@ -118,19 +121,19 @@ Now you should see my repo url as upstream and your url as origin. To make your 
    git pull upstream master
    ```
 
-Files should download if there are any changes. This will not overwrite your files unless there are conflicts.
+Files should download if there were any changes made to the web version of the repo.
 
 # Submit a pull request
 
-It's great that you have these changed files in your repo, but you want to share these files with your collaborators. We all have the same repo. Go to your version of the repo and click on submit a pull request:
+It's great that you have these changed files in your repo! Now you want to share with your collaborators so everyone has the same version of the files collection in their repo. Go to your repo and click on submit a pull request:
 
    [![git_pr1](_static/git_pull_request.thumb.png)](_static/git_pull_request.png)
 
-You will see two comparisons between the master and your repo. There shouldn't be an conflicts, so just click on 'Create pull request':
+You will see two comparisons between the master and your repo. There shouldn't be an conflicts, so click on 'Create pull request':
 
    [![git_pr2](_static/git_create_pull_request.thumb.png)](_static/git_create_pull_request.png)
    
-This will make a request for your changes to be pulled and merged into the original repo.
+This will make a request for your changes to be pulled into and merged with the original repo.
 
 # Submit an issue
 
