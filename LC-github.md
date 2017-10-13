@@ -164,12 +164,11 @@ Github repos contain static documents. Github suports rendering of `.ipynb`, `.p
   
 # References
 
-* http://khmer.readthedocs.io/en/latest/dev/getting-started.html
-* http://khmer.readthedocs.io/en/latest/dev/getting-started.html
-* http://angus.readthedocs.io/en/2016/CTB-github.html
-* https://monsterbashseq.wordpress.com/2016/03/08/intro-git-lab-meeting/
-* https://education.github.com/guide/private_repos
-* https://swcarpentry.github.io/git-novice/
-* http://dib-training.readthedocs.io/en/pub/2016-02-05-intro-git.html
-* https://classroom.github.com/
-* http://stackoverflow.com/questions/19573031/cant-push-to-github-because-of-large-file-which-i-already-deleted
+* [Contributing to open-source software project on github, khmer]([http://khmer.readthedocs.io/en/latest/dev/getting-started.html)
+* [ANGUS 2016 github lesson](http://angus.readthedocs.io/en/2016/CTB-github.html)
+* [Lab meeting on github](https://monsterbashseq.wordpress.com/2016/03/08/intro-git-lab-meeting/)
+* [Sign up for private repos for education](https://education.github.com/guide/private_repos)
+* [Software Carpentry, github for novices lesson](https://swcarpentry.github.io/git-novice/)
+* [Intro git, halfday workshop at UC Davis](http://dib-training.readthedocs.io/en/pub/2016-02-05-intro-git.html)
+* [Github for classrooms](https://classroom.github.com/)
+* [Issue pushing large files to github, how to solve](http://stackoverflow.com/questions/19573031/cant-push-to-github-because-of-large-file-which-i-already-deleted)
