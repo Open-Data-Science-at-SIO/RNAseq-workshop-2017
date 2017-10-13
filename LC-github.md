@@ -11,10 +11,10 @@ By the end of this lesson, you will be able to:
 
 # Create a new repository
 
-Github has special terms for their parts and workflows, but these are all basically related to storing files and moving them around. A repo (or repository) is just like a folder. Forking, pushing, pulling and cloning are all processes but they are all basically just copying and moving files around.  
+Github has special terms for their parts and workflows (forking, pushing, pulling and cloning). These are all basically related to storing files and moving them around. A repo (or repository) is like a folder.
 
-Go to [github.com](https://github.com/), sign in (sign up if you haven't already). 
-Go to your profile page (e.g.  Lisa's is [https://github.com/ljcohen](https://github.com/ljcohen), then select "New repository".
+Go to [github.com](https://github.com/), sign in (or sign up if you haven't already). 
+Then go to your profile page (e.g.  Lisa's is [https://github.com/ljcohen](https://github.com/ljcohen), then select "New repository".
 
    [![new_repo](_static/git_new_repository.thumb.png)](_static/git_new_repository.png)
 
