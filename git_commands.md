@@ -1,6 +1,6 @@
 Git Commands
-by Luke Thompson, NOAA
 =====
+by Luke Thompson, NOAA
 
 ### Creating your own repository
 
