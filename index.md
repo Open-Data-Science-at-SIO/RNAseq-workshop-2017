@@ -43,7 +43,7 @@ Lunch Break
       * Optional, on your own time: [Dammit Annotation](dammit_annotation.html)
    * Discussion: Modifications & Considerations for microbial transcriptomics & metatranscriptomics
       * [Clustering example](http://htmlpreview.github.io/?https://raw.githubusercontent.com/Open-Data-Science-at-SIO/RNAseq-workshop-2017/master/clusters_tSNE_example.html)
-   * [Github + data visualization demo](_static/transcriptomics_luke_microbes.pdf) and [git cheatsheet!](git_commands.md)
+   * [Github + data visualization demo](_static/transcriptomics_luke_microbes.pdf) and [git cheatsheet!](git_commands.html)
       * Optional, on your own time: [Interactive github tutorial](LC-github.html)
     
 
