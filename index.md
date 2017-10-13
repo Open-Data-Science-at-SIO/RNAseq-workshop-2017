@@ -21,7 +21,7 @@ All sessions are in the Eckart Sea Cave, unless otherwise noted. The workshop ru
 
 ### Wednesday, Day 1: Introduction, QC, Assembly, and Quantification
 
-   * Introductions, RNA-Seq uses & pitfalls
+   * [Introductions, RNA-Seq uses & pitfalls](_static/Intro_RNASeq101.pdf) and [RNAseq workflows](_static/TR_workflow_diagrams.pptx.pdf)
    * [Booting a cloud computer from Jetstream](jetstream/boot.html)
    * [Quality trimming your reads](quality-trimming.html)
 
@@ -43,9 +43,9 @@ Lunch Break
       * Optional, on your own time: [Dammit Annotation](dammit_annotation.html)
    * Discussion: Modifications & Considerations for microbial transcriptomics & metatranscriptomics
       * [Clustering example](http://htmlpreview.github.io/?https://raw.githubusercontent.com/Open-Data-Science-at-SIO/RNAseq-workshop-2017/master/clusters_tSNE_example.html)
-   * Github + data visualization demo
+   * [Github + data visualization demo](_static/transcriptomics_luke_microbes.pdf) and [git cheatsheet!](git_commands.md)
+      * Optional, on your own time: [Interactive github tutorial](LC-github.html)
     
-
 
 ### Instructors
 
@@ -54,7 +54,6 @@ Lunch Break
   * Lisa Johnson - UC Davis
   * John McCrow- JCVI
   * Luke Thompson- NOAA
-
 
 
 #### Useful Further Resources:  
