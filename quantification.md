@@ -70,9 +70,7 @@ We can download a full assembly to use for mapping. This assembly was made with 
 ```
 
 ```
-   curl -O https://s3.amazonaws.com/public.ged.msu.edu/trinity-nematostella-raw.fa.gz
-   gunzip trinity-nematostella-raw.fa.gz
-   ln -s trinity-nematostella-raw.fa trinity.nema.full.fasta
+   curl -O https://darchive.mblwhoilibrary.org/bitstream/handle/1912/5613/Trinity.fasta
 ```
 
 ## Run Salmon
@@ -80,7 +78,7 @@ We can download a full assembly to use for mapping. This assembly was made with 
 Build an index for your new transcriptome:
 
 ```
-   salmon index --index nema --transcripts trinity.nema.full.fasta --type quasi
+   salmon index --index nema --transcripts Trinity.fasta --type quasi
 ```
 Next, link in the QC reads (produced in [quality](quality-trimming.html):
 
