@@ -65,9 +65,11 @@ Download subset of data:
 
 ```
 cd /mnt/work
-curl -O https://s3.amazonaws.com/public.ged.msu.edu/mrnaseq-subset.tar
+mkdir data
 cd data
-tar xvf ../mrnaseq-subset.tar
+curl -L https://osf.io/p4fy5/download -o nema_subset_0Hour.zip
+curl -L https://osf.io/ewyv5/download -o nema_subset_6Hour.zip
+unzip *
 ```
 
 Define your $PROJECT variable to be the location of your work
