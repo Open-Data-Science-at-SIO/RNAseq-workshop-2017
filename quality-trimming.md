@@ -69,7 +69,8 @@ mkdir data
 cd data
 curl -L https://osf.io/p4fy5/download -o nema_subset_0Hour.zip
 curl -L https://osf.io/ewyv5/download -o nema_subset_6Hour.zip
-unzip *
+unzip nema_subset_0Hour.zip
+unzip nema_subset_6Hour.zip
 ```
 
 Define your $PROJECT variable to be the location of your work
